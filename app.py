@@ -2,9 +2,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/api1')
+@app.route('/')
 def api1():
-    return "Hello from API 1!"
+    return "Hello World"
 
 @app.route('/api2')
 def api2():
